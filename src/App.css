@@ -1,0 +1,387 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #FEFFFF;
+}
+.titles {
+  font-family: 'Lobster', cursive;
+}
+
+.test {
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+
+.hr-sections{
+  height: 2px;
+  width: 35%;
+  background-color: black;
+  border: 1px solid black;
+}
+
+/***************** MAIN SCREEN MOBILE ****************/
+.mainScreen {
+  display: table;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+
+.screen-size {
+  font-size: 1.75rem;
+}
+
+.vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.lower-title {
+  margin-top: -1rem;
+}
+
+.main-hr {
+  width: 75%;
+}
+
+/**** social media icons ****/
+.footer-social-links{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2%;
+}
+.footer-social-links a{
+  width: 35px;
+  height: 35px;
+  line-height: 35px !important;
+  position: relative;
+  margin: 0 2%;
+  text-align: center;
+  display: inline-block;
+  color: #111;
+
+  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+.footer-social-links a:before{
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+
+}
+.footer-social-links a:hover{
+  color: #fff;
+}
+.footer-social-links a:hover:before{
+  background: #111;
+}
+
+/**** downward icon ****/
+.footer {
+  display: table;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.scroll-down{
+  font-size: 0.75rem;
+  color: black;
+}
+
+.down-icon {
+  margin-top: -20px;
+  height: 20px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/***************** NAVBAR MOBILE ****************/
+.nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #17252A;
+  border-bottom: 3px solid #a79281;
+  color: white;
+}
+
+.element.first{
+  margin-left: 30pt;
+}
+
+.element{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.element:hover {
+  background-color: #111;
+}
+
+.nav > .active {
+  color: #F76C6C;
+}
+
+/***************** ABOUT MOBILE ****************/
+.about {
+  width: 100vw;
+  height: 100vh;
+ }
+
+.about h1 {
+  font-size: 1.5rem;
+}
+
+.about p {
+  font-size: 0.75rem;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.left-side{
+  left: 0;
+  text-align: center;
+}
+
+.right-side{
+  right: 0;
+  height: 100%;
+}
+
+.profilePic {
+  align-content: center;
+  height: 20%;
+  border-radius: 50%;
+  border: 2px solid #17252A;
+  margin-top: 4%;
+}
+
+.outer-graph {
+  margin: 20% 0 0 0;
+}
+
+.graph {
+  margin-left: 10px;
+  margin-top: 20px;
+  position: relative;
+  width: 90%;
+  height: 30px;
+  background-color: #e0e0e0;
+  text-align: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.graphLang {
+  position: absolute;
+  left: 0;
+  background-color: #2B7A78;
+  color: white;
+  height: 100%;
+  width: 30%;
+  flex: 0 0 20%;
+  line-height: 1.5%;
+}
+
+.graphLength {
+  position: absolute;
+  height: 100%;
+  background-color: #3AAFA9;
+  margin-left: 30%;
+  flex: 0 0 80%;
+  text-align: right;
+}
+
+.graphLang p {
+  padding-top: 30%;
+  font-size: 0.60rem;
+}
+
+.graphLength p {
+  margin-right: 10px;
+  color: white;
+  padding-top: 7px;
+}
+
+.aboutText {
+  margin-top: -10px;
+}
+
+.resumeButton {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 10px 30px;
+  border: 3px solid #3AAFA9;
+}
+
+.resumeButton:hover {
+  background-color: #3AAFA9;
+  color: white;
+}
+
+
+/***************** CONTACT MOBILE ****************/
+.contact {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/***************** PROJECTS MOBILE ****************/
+.projects {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (min-width: 600px) {
+  .hr-sections{
+    width: 10%;
+  }
+  /***************** MAIN SCREEN LAPTOPS ****************/
+  .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .screen-size {
+    font-size: 3.75rem;
+  }
+
+  .vertical {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .main-hr {
+    width: 50%;
+  }
+
+  .footer-social-links a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+    margin: 0 1%;
+  }
+
+  .scroll-down{
+    font-size: 1rem;
+  }
+  /***************** ABOUT LAPTOPS ****************/
+  .profilePic {
+    height: 35%;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+  .outer-graph {
+    margin: 10% 0 0 0;
+  }
+  .graph {
+    margin-left: 0;
+    margin-top: 0;
+    width: 75%;
+  }
+
+  .left-side h1  {
+    font-size: 1.75rem;
+  }
+
+  .graphLength p {
+    padding-top: 3px;
+  }
+
+}
+
+@media (min-width: 1600px) {
+  .hr-sections{
+    width: 8%;
+  }
+  /***************** MAIN SCREEN DESKTOPS ****************/
+  .main-hr {
+    width: 40%;
+  }
+  .scroll-down{
+    font-size: 1.25rem;
+  }
+  .down-icon {
+    height: 25px;
+  }
+
+  /***************** ABOUT DESKTOPS ****************/
+  .left-side p  {
+    font-size: 1.25rem;
+  }
+
+  .left-side h1  {
+    font-size: 2.25rem;
+  }
+}
