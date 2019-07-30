@@ -6,7 +6,7 @@ import config from 'react-reveal/globals';
 
 class About extends Component {
     render() {
-        let languages = [ ['React', 50], ['HTML', 70], ['Python', 40], ['JavaScript', 60] , ['Java', 40], ['CSS', 70] , ['C++', 40] ];
+
         config({ ssrFadeout: true });
         return (
             <div className="about">
@@ -22,27 +22,13 @@ class About extends Component {
                         <p className="aboutText">at Indiana University-Purdue University Indianapolis (IUPUI).</p>
                         <p className="aboutText">I am passionate about creating top of the line applications to fulfill</p>
                         <p className="aboutText">customer needs!</p>
-                        <a href={Resume} target="_blank" rel = "noopener noreferrer"><button className="resumeButton">Resume</button></a>
+                        <a href={Resume} target="_blank" rel = "noopener noreferrer"><button className="btn resumeButton">Resume</button></a>
                     </div>
                 </Fade>
                 <Fade right delay={400} ssrFadeout>
                     <div className="split right-side">
-                        <div className="outer-graph">
-                            {languages.map(lang => {
-                                return(
-                                    <div className="graph">
-                                        <div className="graphLang">
-                                            <p><strong>{lang[0]}</strong></p>
-                                        </div>
-                                        <Fade left cascade>
-                                            <div className="graphLength" style={{width: lang[1]-10 + '%'}}>
-                                                <p>{(lang[1]+20) + '%'}</p>
-                                            </div>
-                                        </Fade>
-                                    </div>
-                                )
-                            })}
-                        </div>
+                        <h4>HTML/CSS</h4>
+                        <hr/>
                     </div>
                 </Fade>
             </div>

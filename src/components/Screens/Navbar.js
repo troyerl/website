@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () =>{
     return (
-        <div className="nav">
+        <div className="nav justify-content-center">
             <Link activeClass="active"
                   className = "element first"
                   to="mainScreen"

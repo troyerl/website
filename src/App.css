@@ -4,7 +4,8 @@
 body {
   margin:0;
   padding:0;
-  background-color: #FEFFFF;
+  /*background-color: #FEFFFF;*/
+  background-color: white;
 }
 .titles {
   font-family: 'Lobster', cursive;
@@ -162,7 +163,7 @@ body {
 }
 
 .element.first{
-  margin-left: 30pt;
+  margin-left: 0;
 }
 
 .element{
@@ -172,6 +173,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .element:hover {
@@ -221,51 +223,9 @@ body {
   margin-top: 4%;
 }
 
-.outer-graph {
-  margin: 20% 0 0 0;
-}
-
-.graph {
-  margin-left: 10px;
-  margin-top: 20px;
-  position: relative;
-  width: 90%;
-  height: 30px;
-  background-color: #e0e0e0;
-  text-align: center;
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.graphLang {
-  position: absolute;
-  left: 0;
-  background-color: #2B7A78;
-  color: white;
-  height: 100%;
-  width: 30%;
-  flex: 0 0 20%;
-  line-height: 1.5%;
-}
-
-.graphLength {
-  position: absolute;
-  height: 100%;
-  background-color: #3AAFA9;
-  margin-left: 30%;
-  flex: 0 0 80%;
-  text-align: right;
-}
-
-.graphLang p {
-  padding-top: 30%;
-  font-size: 0.60rem;
-}
-
-.graphLength p {
-  margin-right: 10px;
-  color: white;
-  padding-top: 7px;
+.about-title {
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .aboutText {
@@ -284,18 +244,51 @@ body {
   color: white;
 }
 
-
-/***************** CONTACT MOBILE ****************/
-.contact {
-  width: 100vw;
+/***************** SKILLS MOBILE ****************/
+.skills {
+  background-color: #DEF2F1;
+  margin-top: -22px;
+  position: relative;
+  overflow: auto;
   height: 100vh;
+  top: 0;
+  /*background-color: #f9f9f9;*/
+
 }
 
+.outer-tab {
+  background-color: white;
+  height: 125px;
+  width: 90%;
+  box-shadow: 5px 5px 5px grey;
+  margin: 0 auto;
+}
 
 /***************** PROJECTS MOBILE ****************/
 .projects {
   width: 100vw;
   height: 100vh;
+}
+
+/***************** CONTACT MOBILE ****************/
+.contact {
+  width: 100vw;
+  height: 100vh;
+  display: table;
+}
+
+.form-btn {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 10px 30px;
+  border: 3px solid #3AAFA9;
+  color: #111111;
+}
+
+.form-btn:hover {
+  background-color: #3AAFA9;
+  color: white;
+  border: 3px solid white;
 }
 
 @media (min-width: 600px) {
@@ -335,6 +328,7 @@ body {
   .scroll-down{
     font-size: 1rem;
   }
+
   /***************** ABOUT LAPTOPS ****************/
   .profilePic {
     height: 35%;
@@ -342,23 +336,18 @@ body {
   .about p {
     font-size: 1rem;
   }
-  .outer-graph {
-    margin: 10% 0 0 0;
-  }
-  .graph {
-    margin-left: 0;
-    margin-top: 0;
-    width: 75%;
-  }
 
   .left-side h1  {
     font-size: 1.75rem;
   }
 
-  .graphLength p {
-    padding-top: 3px;
+  /***************** CONTACT LAPTOPS ****************/
+  .form-control {
+    width: 50%;
   }
-
+  .form-btn {
+    margin-left: 44%;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -369,6 +358,11 @@ body {
   .main-hr {
     width: 40%;
   }
+
+  .outer-graph {
+    margin: 15% 0 0 0;
+  }
+
   .scroll-down{
     font-size: 1.25rem;
   }
@@ -377,11 +371,44 @@ body {
   }
 
   /***************** ABOUT DESKTOPS ****************/
+
   .left-side p  {
     font-size: 1.25rem;
   }
 
   .left-side h1  {
     font-size: 2.25rem;
+  }
+
+  .resumeButton {
+    font-size: 1.2rem;
+    padding: 10px 40px;
+    border: 3px solid #3AAFA9;
+  }
+
+  /***************** CONTACT DESKTOPS ****************/
+  .form-btn {
+    margin-left: 45%;
+  }
+}
+
+@media (max-width: 400px) {
+  /***************** NAVBAR SMALL MOBILE ****************/
+  .nav {
+
+    padding-right: 3px;
+  }
+  .element.first{
+    margin-left: 6%;
+  }
+
+  .element {
+    font-size: 0.75rem;
+  }
+
+  /***************** CONTACT SMALL MOBILE ****************/
+  .textarea {
+    height: 100vh;
+    width: 100vw;
   }
 }

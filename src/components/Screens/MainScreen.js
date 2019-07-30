@@ -6,7 +6,7 @@ class MainScreen extends Component {
     render() {
         return (
             <div className="mainScreen">
-                <div className="vertical center">
+                <div className="vertical">
                     <h4 className="display-4 screen-size text-center titles">Hello, I'm Logan Troyer.</h4>
                     <h4 className="display-4 screen-size text-center lower-title titles">I am a full-stack developer.</h4>
                     <hr className="main-hr"/>
