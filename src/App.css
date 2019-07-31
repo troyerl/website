@@ -313,10 +313,48 @@ body {
   }
 }
 
+@media (max-width: 340px) {
+  .projects{
+    margin-top: 110%;
+  }
+}
+@media (min-width: 360px) {
+  .projects{
+    margin-top: 80%;
+  }
+}
+@media (min-width: 365px) and (max-width: 390px){
+  .projects{
+    margin-top: 40%;
+  }
+}
+@media (min-width: 360px) and (min-height: 660px){
+  .projects{
+    margin-top: 70%;
+  }
+}
+
+@media (min-width: 360px) and (min-height: 800px){
+  .projects{
+    margin-top: 30%;
+  }
+}
+@media (min-width: 400px) {
+  .projects{
+    margin-top: 50%;
+  }
+}
+@media (min-width: 400px) and (min-height: 800px){
+  .projects{
+    margin-top: 30%;
+  }
+}
+
 @media (min-width: 992px) {
   .hr-sections{
     width: 10%;
   }
+
   /***************** MAIN SCREEN LAPTOPS ****************/
   .outer {
     display: table;
