@@ -187,40 +187,28 @@ body {
 /***************** ABOUT MOBILE ****************/
 .about {
   width: 100vw;
-  height: 100vh;
+  height: auto;
  }
 
 .about h1 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .about p {
   font-size: 0.75rem;
-}
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  overflow-x: hidden;
-}
-
-.left-side{
-  left: 0;
   text-align: center;
-}
-
-.right-side{
-  right: 0;
-  height: 100%;
 }
 
 .profilePic {
   align-content: center;
-  height: 20%;
+  height: 12rem;
   border-radius: 50%;
   border: 2px solid #17252A;
   margin-top: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-title {
@@ -237,6 +225,9 @@ body {
   font-size: 1rem;
   padding: 10px 30px;
   border: 3px solid #3AAFA9;
+  display: block;
+  max-width: 300px;
+  margin: auto;
 }
 
 .resumeButton:hover {
@@ -244,30 +235,52 @@ body {
   color: white;
 }
 
-/***************** SKILLS MOBILE ****************/
-.skills {
-  background-color: #DEF2F1;
-  margin-top: -22px;
-  position: relative;
-  overflow: auto;
-  height: 100vh;
-  top: 0;
-  /*background-color: #f9f9f9;*/
-
+.langs {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
 }
 
-.outer-tab {
-  background-color: white;
-  height: 125px;
-  width: 90%;
-  box-shadow: 5px 5px 5px grey;
-  margin: 0 auto;
+.outerBar{
+  width: 80%;
+  height: 40px;
+  background-color: #eee;
+  margin: auto;
+  transition: width 500ms;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.barTitle {
+  width: 20%;
+  height: 100%;
+  background-color: red;
+  left: 0;
+  float: left;
+  border-radius: 4px 0 0 4px;
+}
+
+.innerBar {
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.progressBar {
+  background-color: green;
+  height: 100%;
+}
+
+.langs p {
+  padding-top: 10px;
+  color: white;
 }
 
 /***************** PROJECTS MOBILE ****************/
 .projects {
   width: 100vw;
   height: 100vh;
+  margin-top: 50%;
 }
 
 /***************** CONTACT MOBILE ****************/
@@ -292,6 +305,15 @@ body {
 }
 
 @media (min-width: 600px) {
+  .screen-size {
+    font-size: 3.75rem;
+  }
+  .projects{
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
   .hr-sections{
     width: 10%;
   }
@@ -331,14 +353,36 @@ body {
 
   /***************** ABOUT LAPTOPS ****************/
   .profilePic {
-    height: 35%;
+    height: 36%;
   }
   .about p {
     font-size: 1rem;
   }
 
+  .split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  .left-side{
+    left: 0;
+    text-align: center;
+  }
+
+  .right-side{
+    right: 0;
+    height: 100%;
+  }
+
   .left-side h1  {
     font-size: 1.75rem;
+  }
+
+  /***************** PROJECTS LAPTOPS ****************/
+  .projects {
+    margin-top: 0;
   }
 
   /***************** CONTACT LAPTOPS ****************/
