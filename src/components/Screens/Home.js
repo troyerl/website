@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import MainScreen from './MainScreen'
 import About from "./About";
-import Projects from "./Projects";
+import Projects from "./Projects/Projects";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
 
