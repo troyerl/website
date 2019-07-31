@@ -254,7 +254,7 @@ body {
 .barTitle {
   width: 20%;
   height: 100%;
-  background-color: red;
+  background-color: #2B7A78;
   left: 0;
   float: left;
   border-radius: 4px 0 0 4px;
@@ -267,7 +267,7 @@ body {
 }
 
 .progressBar {
-  background-color: green;
+  background-color: #3AAFA9;
   height: 100%;
 }
 
@@ -293,8 +293,63 @@ body {
 .tab {
   width: 90%;
   height: 30%;
-  background-color: #eee;
-  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  height: 30%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.tab-title {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.tab-description {
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 3px;
+}
+.arrow {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.tab:hover .overlay {
+  opacity: 0.9;
 }
 
 /***************** CONTACT MOBILE ****************/
@@ -435,6 +490,35 @@ body {
   /***************** PROJECTS LAPTOPS ****************/
   .projects {
     margin-top: 0;
+  }
+
+  .tab{
+    width: 40%;
+    height: 40%;
+  }
+  .overlay {
+    height: 40%;
+    width: 40%;
+  }
+
+  .tab-title{
+    top: 25%;
+    font-size: 3rem;
+  }
+
+  .tab-description{
+    font-size: 1rem;
+  }
+
+  .tab img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tab:hover {
+    background-image: none;
+    background-color: black;
+    z-index: 2;
   }
 
   /***************** CONTACT LAPTOPS ****************/

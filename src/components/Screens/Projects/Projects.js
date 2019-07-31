@@ -1,16 +1,17 @@
 import React, { Component} from 'react'
 import Tab from "./Tab";
+import Onward from './Images/Onward.png'
 
 class Projects extends Component {
     render() {
         const projects = {
             indyCivic : {
                 codeLink: '',
-                description: '',
+                description: 'This is a test description that is very long and will show me where the put everything. I dont know if this will be centered but I am gonna see.',
                 languages: ['Javascript', 'Vuejs', 'NodeJs'],
-                name: '',
+                name: 'Onward!',
                 videoLink: '',
-                photo: ''
+                photo: Onward
             }
         }
         return (
@@ -19,7 +20,7 @@ class Projects extends Component {
                     <h4 className="display-4 text-center pt-2 titles">Projects</h4>
                     <hr className="hr-sections"/>
                     <div className="projectTabs">
-                        <Tab/>
+                        <Tab project={projects.indyCivic}/>
                     </div>
                 </div>
             </div>
