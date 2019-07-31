@@ -25,28 +25,28 @@ class About extends Component {
                         <a href={Resume} target="_blank" rel = "noopener noreferrer"><button className="btn resumeButton">Resume</button></a>
                     </div>
                 </Fade>
-                <Fade right delay={400} ssrFadeout>
                     <div className="split right-side">
                         {
-                            languages.map(lang => {
+                            languages.map((lang, idx) => {
                                 return (
-                                    <div className="langs">
-                                        <div className="outerBar">
-                                            <div className="barTitle">
-                                                <p>{lang[0]}</p>
-                                            </div>
-                                            <div className="innerBar">
-                                                <div className="progressBar" style={{width: lang[1] + '%'}}>
-                                                    <p>{lang[1]}%</p>
+                                    <Fade left delay={(idx+2) +'00'}>
+                                        <div className="langs">
+                                            <div className="outerBar">
+                                                <div className="barTitle">
+                                                    <p>{lang[0]}</p>
+                                                </div>
+                                                <div className="innerBar">
+                                                        <div className="progressBar" style={{width: lang[1] + '%'}}>
+                                                            <p>{lang[1]}%</p>
+                                                        </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Fade>
                                 )
                             })
                         }
                     </div>
-                </Fade>
             </div>
         )
     }
