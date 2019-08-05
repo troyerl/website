@@ -8,7 +8,7 @@ class MainScreen extends Component {
             <div className="mainScreen">
                 <div className="vertical">
                     <h4 className="display-4 screen-size text-center titles">Hello, I'm Logan Troyer.</h4>
-                    <h4 className="display-4 screen-size text-center lower-title titles">I am a full-stack developer.</h4>
+                    <h4 className="display-4 screen-size text-center lower-title titles">I am a Front End Developer</h4>
                     <hr className="main-hr"/>
                     <div className="footer-social-links">
                         <a href="https://www.facebook.com/people/Logan-Troyer/100010308850368" target="_blank" rel = "noopener noreferrer" title="Facebook"><i className="fa fa-facebook"> </i></a>
