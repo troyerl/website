@@ -1,5 +1,6 @@
 export default {
     root: "/",
     login: "/login",
-    dashboard: "/dashboard"
+    dashboard: "/dashboard",
+    projectDetails: "/project"
 }
