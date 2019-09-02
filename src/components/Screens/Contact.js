@@ -42,18 +42,22 @@ class Contact extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        this.props.createContact(this.state)
-        this.resetForm()
-        this.sendEmail()
-        alert('Logan has been notified and will be getting back to you very shortly!')
+        if (this.state.name !== '' && this.state.email !== '' && this.state.message !== ''){
+            this.props.createContact(this.state)
+            this.resetForm()
+            this.sendEmail()
+            alert('Logan has been notified and will be getting back to you very shortly!')
+        }else {
+            alert('All fields are required to send message')
+        }
     }
 
     render() {
         return (
             <div className="contact">
                 <div className="pt-5">
-                    <h4 className="display-4 text-center pt-2 titles">Contact</h4>
-                    <hr className="hr-sections"/>
+                    <h4 className="display-4 text-center pt-2 titles contact-title">Contact</h4>
+                    <hr className="hr-sections contact-hr"/>
                     <div className="contact-form mt-4">
                         <form method="POST" id="contact-form">
                             <Fade bottom>
