@@ -10,6 +10,7 @@
     "react-d3-radar": "^1.0.0-rc6",
     "react-dom": "^16.8.6",
     "react-firestore": "^1.0.1",
+    "react-ionicons": "^3.0.1",
     "react-particles-js": "^2.6.0",
     "react-player": "^1.11.1",
     "react-redux": "^5.1.1",

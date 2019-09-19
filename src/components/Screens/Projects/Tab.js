@@ -6,9 +6,9 @@ class Tab extends Component {
     render() {
         const {project} = this.props;
         return (
-            <div className="tab">
-                <img src={project.photo} alt="project" className="image"/>
-                <div className="overlay">
+            <div className="tab shadow rounded-lg">
+                <img src={project.photo} alt="project" className="image rounded-lg"/>
+                <div className="overlay rounded-lg">
                     <div className="tab-title">{project.name}</div>
                     <div className="tab-description">{project.description}</div>
                     <div className="tab-languages">

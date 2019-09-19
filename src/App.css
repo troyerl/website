@@ -190,9 +190,10 @@ body {
 }
 
 .nav > .active {
-  color: black;
-  /*color: #F76C6C;*/
+  text-decoration: underline;
 }
+
+
 
 /***************** ABOUT MOBILE ****************/
 .about {
