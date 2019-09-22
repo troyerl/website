@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-
+import IosLaptop from 'react-ionicons/lib/IosLaptop'
+import IosPerson from "react-ionicons/lib/IosPerson";
+import IosText from "react-ionicons/lib/IosText";
+import MdHome from "react-ionicons/lib/MdHome";
 
 const Navbar = () =>{
     return (
@@ -13,7 +16,8 @@ const Navbar = () =>{
                   offset={0}
                   duration={800}
             >
-                Home
+              <span className="nav-item">Home</span>
+              <MdHome className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
             <Link activeClass="active"
                   className = "element"
@@ -23,7 +27,8 @@ const Navbar = () =>{
                   offset={-32}
                   duration={800}
             >
-                About
+              <span className="nav-item">About</span>
+              <IosPerson className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
             <Link activeClass="active"
                   className = "element"
@@ -33,7 +38,8 @@ const Navbar = () =>{
                   offset={-20}
                   duration={800}
             >
-                Projects
+              <span className="nav-item">Projects</span>
+              <IosLaptop className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
             <Link activeClass="active"
                   className = "element"
@@ -43,7 +49,8 @@ const Navbar = () =>{
                   offset={-20}
                   duration={800}
             >
-                Contact
+              <span className="nav-item">Contact</span>
+              <IosText className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
         </div>
     )
