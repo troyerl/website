@@ -43,7 +43,6 @@ body {
 
 .screen-size {
   font-size: 2.25rem;
-  /*font-size: 1.75rem;*/
 }
 
 .vertical {
@@ -184,12 +183,7 @@ body {
   font-size: 1rem;
 }
 
-.element:hover {
-  color: black;
-  /*color: #1484AAFF;*/
-}
-
-.nav > .active {
+.nav > .active span {
   text-decoration: underline;
 }
 
@@ -235,15 +229,16 @@ body {
   background-color: transparent;
   font-size: 1rem;
   padding: 10px 30px;
-  border: 3px solid #3AAFA9;
+  border: 3px solid #85CCFEFF;
   display: block;
   max-width: 300px;
   margin: auto;
 }
 
 .resumeButton:hover {
-  background-color: #3AAFA9;
+  background-color: #85CCFEFF;
   color: white;
+  text-decoration: none;
 }
 
 .langs {
@@ -286,6 +281,12 @@ body {
   padding-top: 10px;
   color: white;
 }
+
+.left-side {
+  margin-top: 10%;
+  margin-bottom: 22%;
+}
+
 
 /***************** PROJECTS MOBILE ****************/
 .projects {
@@ -407,13 +408,14 @@ body {
   border: 1px solid #85CCFEFF;
 }
 
+
 .form-btn:hover {
   background-color: #85CCFEFF;
 }
 
 /***************** PROJECT DETAILS MOBILE ****************/
 .projectDetails {
-  background-color: #DEF2F1;
+  background-color: #85CCFEFF;
   height: 110vh;
   width: 100vw;
 }
@@ -483,6 +485,9 @@ body {
   .arrow {
     font-size: 0.75rem;
   }
+  .nav-item {
+    display: none;
+  }
 }
 
 
@@ -494,15 +499,24 @@ body {
   .tab-title {
     top: 10%;
   }
+  .nav-item {
+    display: none;
+  }
 }
 @media (min-width: 365px) and (max-width: 390px){
   .projects{
     margin-top: 40%;
   }
+  .nav-item {
+    display: none;
+  }
 }
 @media (min-width: 360px) and (min-height: 660px){
   .projects{
     margin-top: 70%;
+  }
+  .nav-item {
+    display: none;
   }
 }
 
@@ -510,15 +524,24 @@ body {
   .projects{
     margin-top: 30%;
   }
+  .nav-item {
+    display: none;
+  }
 }
 @media (min-width: 400px) {
   .projects{
     margin-top: 50%;
   }
+  .nav-item {
+    display: none;
+  }
 }
 @media (min-width: 400px) and (min-height: 800px){
   .projects{
     margin-top: 30%;
+  }
+  .nav-item {
+    display: none;
   }
 }
 /***************** IPAD ****************/
@@ -580,6 +603,10 @@ body {
     text-shadow: none;
   }
 
+  .nav-item {
+    display: inline;
+  }
+
   /***************** ABOUT LAPTOPS ****************/
   .profilePic {
     height: 36%;
@@ -598,6 +625,8 @@ body {
   .left-side{
     left: 0;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .right-side{
