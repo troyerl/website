@@ -8,12 +8,12 @@ class Projects extends Component {
             indyCivic : {
                 codeLink: 'https://github.com/djpeach/civichack',
                 description: 'This is a test description that is very long and will show me where the put everything. I dont know if this will be centered but I am gonna see.',
-                languages: ['Javascript', 'Vuejs', 'NodeJs'],
+                languages: ['Javascript', 'Vuejs', 'Firebase', 'Bootstrap'],
                 name: 'Onward!',
                 videoLink: 'https://www.youtube.com/watch?v=LrBn0g6g0H4',
                 photo: Onward
             }
-        }
+        };
         return (
             <div className="projects">
                 <div className="pt-5">

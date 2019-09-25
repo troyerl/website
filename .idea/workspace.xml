@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21929e5d-bd21-4e06-8168-d4373d26177b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,6 +90,7 @@
       <workItem from="1564575201497" duration="1997000" />
       <workItem from="1564781425839" duration="11266000" />
       <workItem from="1565023233834" duration="226000" />
+      <workItem from="1569205774428" duration="688000" />
     </task>
     <servers />
   </component>
