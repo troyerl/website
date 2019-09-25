@@ -14,18 +14,19 @@ class About extends Component {
                     <h4 className="display-4 text-center pt-2 titles">About</h4>
                     <hr className="hr-sections"/>
                 </div>
-                <Fade left ssrFadeout>
-                    <div className="split left-side">
-                        <img src = {ProfilePicture} className = "profilePic text-center" alt = "test"/>
-                        <h1>Who am I?</h1>
-                        <p>I am currently majoring in Computer Science with a minor in Mathematics </p>
-                        <p className="aboutText">at Indiana University-Purdue University Indianapolis (IUPUI).</p>
-                        <p className="aboutText">I am passionate about creating top of the line applications to fulfill</p>
-                        <p className="aboutText">customer needs!</p>
-                        <a href={Resume} target="_blank" rel = "noopener noreferrer"><button className="btn resumeButton">Resume</button></a>
-                    </div>
-                </Fade>
-                    <div className="split right-side">
+                <div className="wrapper flex-direction">
+                    <Fade left ssrFadeout>
+                        <div className="left">
+                            <img src = {ProfilePicture} className = "profilePic text-center" alt = "test"/>
+                            <h1>Who am I?</h1>
+                            <p>I am currently majoring in Computer Science with a minor in Mathematics </p>
+                            <p className="aboutText">at Indiana University-Purdue University Indianapolis (IUPUI).</p>
+                            <p className="aboutText">I am passionate about creating top of the line applications to fulfill</p>
+                            <p className="aboutText">customer needs!</p>
+                            <a href={Resume} target="_blank" rel = "noopener noreferrer"><button className="btn resumeButton">Resume</button></a>
+                        </div>
+                    </Fade>
+                    <div className="right">
                         {
                             languages.map((lang, idx) => {
                                 return (
@@ -47,6 +48,7 @@ class About extends Component {
                             })
                         }
                     </div>
+                </div>
             </div>
         )
     }
