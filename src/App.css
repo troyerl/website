@@ -164,7 +164,6 @@ body {
   overflow: hidden;
   font-family: 'Ubuntu', sans-serif;
   background-color: #1484AAFF;
-  /*background-color: #85CCFEFF;*/
   color: white;
   text-shadow: black 0px 0px 10px;
 }
@@ -351,13 +350,16 @@ body {
   font-size: 15px;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: auto;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
-  background: transparent;
+  background: #1484AAFF;
   border: none;
+}
+.arrow a {
+  color: white;
+  text-decoration: none;
 }
 
 .tab-languages {
