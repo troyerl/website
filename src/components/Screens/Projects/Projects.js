@@ -6,8 +6,8 @@ class Projects extends Component {
     render() {
         const projects = {
             indyCivic : {
-                codeLink: 'https://github.com/djpeach/civichack',
-                description: 'This is a test description that is very long and will show me where the put everything. I dont know if this will be centered but I am gonna see.',
+                codeLink: 'https://github.com/troyerl/onward',
+                description: 'Built as a #indycivichack submission, and allows previously incarcerated citizens to set goals and earn points as they achieve them.',
                 languages: ['Javascript', 'Vuejs', 'NodeJs'],
                 name: 'Onward!',
                 videoLink: 'https://www.youtube.com/watch?v=LrBn0g6g0H4',
