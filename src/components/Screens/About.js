@@ -9,9 +9,9 @@ class About extends Component {
     let languages = [
       ["ReactJs", 60],
       ["HTML", 70],
-      ["Python", 50],
+      ["jQuery", 50],
       ["JavaScript", 60],
-      ["Java", 40],
+      ["Bootstrap", 60],
       ["CSS", 70],
       ["VueJs", 50]
     ];
