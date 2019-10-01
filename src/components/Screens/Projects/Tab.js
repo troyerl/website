@@ -10,7 +10,7 @@ class Tab extends Component {
           <div className="tab-title">{project.name}</div>
           <div className="tab-description">{project.description}</div>
           <div className="tab-languages">
-            <p style={{ display: "inline" }}>Languages/Frameworks: </p>
+            <p style={{ display: "inline" }}>Tools: </p>
             {project.languages.map((lang, idx) => {
               if (idx + 1 === project.languages.length) {
                 return (

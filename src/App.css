@@ -190,10 +190,6 @@ body {
   font-size: 1rem;
 }
 
-.nav > .active span {
-  text-decoration: underline;
-}
-
 /***************** ABOUT MOBILE ****************/
 .about {
   width: 100vw;
@@ -540,10 +536,11 @@ body {
   }
 }
 
-@media only screen and (max-height: 668px) and (min-width: 374px) {
+@media only screen and (max-height: 668px) and (max-width: 374px) {
   .flex-direction {
     flex-direction: column;
   }
+
   .left {
     width: 100%;
     height: 100%;

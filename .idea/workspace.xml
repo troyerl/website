@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21929e5d-bd21-4e06-8168-d4373d26177b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Screens/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/Navbar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
