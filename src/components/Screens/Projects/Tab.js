@@ -1,6 +1,4 @@
 import React, { Component} from 'react'
-import {Link} from "react-router-dom";
-import routes from "../../../config/routes";
 
 class Tab extends Component {
     render() {
@@ -8,7 +6,7 @@ class Tab extends Component {
         return (
             <div className="tab shadow rounded-lg">
                 <img src={project.photo} alt="project" className="image rounded-lg"/>
-                <div className="overlay rounded-lg">
+                <div className="overlay rounded-lg d-flex flex-column justify-content-center">
                     <div className="tab-title">{project.name}</div>
                     <div className="tab-description">{project.description}</div>
                     <div className="tab-languages">
@@ -17,17 +15,19 @@ class Tab extends Component {
                             project.languages.map((lang, idx) => {
                                 if(idx+1 === project.languages.length){
                                     return (
-                                        <p className="text-center" style={{display: 'inline'}}>{lang} </p>
+                                        <p key={idx} className="text-center" style={{display: 'inline'}}>{lang} </p>
                                     )
                                 }else {
                                     return (
-                                        <p className="text-center" style={{display: 'inline'}}>{lang}, </p>
+                                        <p key={idx} className="text-center" style={{display: 'inline'}}>{lang}, </p>
                                     )
                                 }
                             })
                         }
                     </div>
-                    <div className="arrow"><Link to={{pathname: `${routes.projectDetails}/${project.name}`, state: {project}}}>Learn More &#x2192;</Link></div>
+                  <div className="text-center">
+                    <button className="arrow"><a href={project.codeLink} target="_blank" rel = "noopener noreferrer">Source Code</a></button>
+                  </div>
                 </div>
             </div>
         )

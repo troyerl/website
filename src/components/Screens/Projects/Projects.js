@@ -6,18 +6,17 @@ class Projects extends Component {
     render() {
         const projects = {
             indyCivic : {
-                codeLink: 'https://github.com/djpeach/civichack',
-                description: 'This is a test description that is very long and will show me where the put everything. I dont know if this will be centered but I am gonna see.',
+                codeLink: 'https://github.com/troyerl/onward',
+                description: 'Built as a #indycivichack submission, and allows previously incarcerated citizens to set goals and earn points as they achieve them.',
                 languages: ['Javascript', 'Vuejs', 'Firebase', 'Bootstrap'],
                 name: 'Onward!',
-                videoLink: 'https://www.youtube.com/watch?v=LrBn0g6g0H4',
                 photo: Onward
             }
         };
         return (
             <div className="projects">
-                <div className="pt-5">
-                    <h4 className="display-4 text-center pt-2 titles">Projects</h4>
+                <div className="pt-4">
+                    <h4 className="display-4 text-center pt-5 titles project-title">Projects</h4>
                     <hr className="hr-sections"/>
                     <div className="projectTabs">
                         <Tab project={projects.indyCivic}/>
