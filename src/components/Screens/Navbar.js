@@ -17,7 +17,7 @@ const Navbar = () =>{
                   offset={0}
                   duration={800}
             >
-                Home
+              <span className="nav-item">Home</span>
               <MdHome className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
             <Link activeClass="active"
@@ -28,7 +28,7 @@ const Navbar = () =>{
                   offset={-32}
                   duration={800}
             >
-                About
+              <span className="nav-item">About</span>
               <IosPerson className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
             <Link activeClass="active"
@@ -39,7 +39,7 @@ const Navbar = () =>{
                   offset={-20}
                   duration={800}
             >
-              Projects
+              <span className="nav-item">Projects</span>
               <IosLaptop className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
             <Link activeClass="active"
@@ -50,7 +50,7 @@ const Navbar = () =>{
                   offset={-20}
                   duration={800}
             >
-              Contact
+              <span className="nav-item">Contact</span>
               <IosText className="ml-2 mb-1" color="white" fontSize="30px"/>
             </Link>
         </div>

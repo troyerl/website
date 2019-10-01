@@ -16,8 +16,8 @@ class Projects extends Component {
         }
         return (
             <div className="projects">
-                <div className="pt-5">
-                    <h4 className="display-4 text-center pt-2 titles">Projects</h4>
+                <div className="pt-4">
+                    <h4 className="display-4 text-center pt-5 titles project-title">Projects</h4>
                     <hr className="hr-sections"/>
                     <div className="projectTabs">
                         <Tab project={projects.indyCivic}/>
