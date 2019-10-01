@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
-import down from '../Images/iconfinder_expand2_308964.svg'
 import { Link } from 'react-scroll'
+import IosArrowDown from "react-ionicons/lib/IosArrowDown"
 
 class MainScreen extends Component {
     render() {
@@ -26,7 +26,7 @@ class MainScreen extends Component {
                               duration={800}
                         >
                             <p className="text-center scroll-down">scroll down</p>
-                            <img src={down} alt="" className="down-icon"/>
+                            <IosArrowDown className="down-icon " color="white" fontSize="25px"/>
                         </Link>
                     </div>
                 </div>
