@@ -1,28 +1,29 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 @font-face {
-  font-family: 'Lobster';
+  font-family: "Lobster";
   font-style: normal;
   font-weight: 400;
-  src: local('Lobster Regular'), local('Lobster-Regular'),
-  url('../src/fonts/lobster-v22-latin-regular.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../src/fonts/lobster-v22-latin-regular.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local("Lobster Regular"), local("Lobster-Regular"),
+    url("../src/fonts/lobster-v22-latin-regular.woff") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../src/fonts/lobster-v22-latin-regular.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   background-color: white;
 }
 .titles {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 .test {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -33,7 +34,7 @@ body {
   top: 0;
 }
 
-.hr-sections{
+.hr-sections {
   height: 2px;
   width: 35%;
   background-color: black;
@@ -47,7 +48,7 @@ body {
   height: 100vh;
   width: 100vw;
   top: 0;
-  background-color: #232428FF;
+  background-color: #232428ff;
 }
 
 .screen-size {
@@ -65,7 +66,7 @@ body {
 
 .lower-title {
   margin-top: -0.5rem;
-  color: #85CCFEFF;
+  color: #85ccfeff;
 }
 
 .main-hr {
@@ -73,12 +74,12 @@ body {
 }
 
 /**** social media icons ****/
-.footer-social-links{
+.footer-social-links {
   font-size: 25px;
   text-align: center;
   margin-top: 2%;
 }
-.footer-social-links a{
+.footer-social-links a {
   width: 50px;
   height: 50px;
   line-height: 50px !important;
@@ -89,19 +90,19 @@ body {
   color: white;
   /*color: #111;*/
 
-  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -ms-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 .footer-social-links a i,
-.footer-social-links a span{
+.footer-social-links a span {
   position: relative;
   top: 1px;
   left: 1px;
 }
-.footer-social-links a:before{
+.footer-social-links a:before {
   content: "";
   display: inline-block;
   width: 100%;
@@ -109,7 +110,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border: 1px solid #85CCFEFF;
+  border: 1px solid #85ccfeff;
 
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -121,18 +122,17 @@ body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 
-  -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-  transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-
+  -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -ms-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
-.footer-social-links a:hover{
+.footer-social-links a:hover {
   color: #fff;
 }
-.footer-social-links a:hover:before{
-  background-color: #85CCFEFF;
+.footer-social-links a:hover:before {
+  background-color: #85ccfeff;
   /*background: #111;*/
 }
 
@@ -145,11 +145,11 @@ body {
   width: 100%;
 }
 
-.footer a{
+.footer a {
   text-decoration: none;
 }
 
-.scroll-down{
+.scroll-down {
   font-size: 0.75rem;
   color: white;
 }
@@ -157,8 +157,8 @@ body {
 .down-icon {
   margin-top: -20px;
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /***************** NAVBAR MOBILE ****************/
@@ -170,17 +170,17 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Ubuntu', sans-serif;
-  background-color: #1484AAFF;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #1484aaff;
   color: white;
   text-shadow: black 0px 0px 10px;
 }
 
-.element.first{
+.element.first {
   margin-left: 0;
 }
 
-.element{
+.element {
   float: left;
   display: block;
   color: white;
@@ -194,13 +194,11 @@ body {
   text-decoration: underline;
 }
 
-
-
 /***************** ABOUT MOBILE ****************/
 .about {
   width: 100vw;
   height: auto;
- }
+}
 
 .about h1 {
   font-size: 1.5rem;
@@ -216,7 +214,7 @@ body {
   align-content: center;
   height: 12rem;
   border-radius: 50%;
-  border: 2px solid #17252A;
+  border: 2px solid #17252a;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -235,14 +233,14 @@ body {
   background-color: transparent;
   font-size: 1rem;
   padding: 10px 30px;
-  border: 3px solid #85CCFEFF;
+  border: 3px solid #85ccfeff;
   display: block;
   max-width: 300px;
   margin: auto;
 }
 
 .resumeButton:hover {
-  background-color: #85CCFEFF;
+  background-color: #85ccfeff;
   color: white;
   text-decoration: none;
 }
@@ -253,7 +251,7 @@ body {
   justify-content: center;
 }
 
-.outerBar{
+.outerBar {
   width: 80%;
   height: 40px;
   background-color: #eee;
@@ -279,7 +277,7 @@ body {
 }
 
 .progressBar {
-  background-color: #85CCFEFF;
+  background-color: #85ccfeff;
   height: 100%;
 }
 
@@ -288,24 +286,24 @@ body {
   color: white;
 }
 
-.wrapper{
-  display:inline-flex;
-  flex-wrap:wrap;
+.wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 50%;
 }
-.flex-direction{
-  flex-direction:row;
+.flex-direction {
+  flex-direction: row;
 }
-.left{
-  width:50%;
+.left {
+  width: 50%;
   bottom: 0;
 }
 
-.right{
-  background-color:#fff;
-  width:50%;
-  height:100%;
+.right {
+  background-color: #fff;
+  width: 50%;
+  height: 100%;
 }
 
 /***************** PROJECTS MOBILE ****************/
@@ -339,7 +337,7 @@ body {
   height: 30%;
   width: 90%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: black;
 }
 
@@ -377,7 +375,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: #1484AAFF;
+  background: #1484aaff;
   border: none;
 }
 .arrow a {
@@ -400,18 +398,17 @@ body {
   display: inline;
 }
 
-.tab:active .overlay, .tab:hover .overlay {
+.tab:active .overlay,
+.tab:hover .overlay {
   opacity: 0.9;
 }
-
-
 
 /***************** CONTACT MOBILE ****************/
 .contact {
   width: 100vw;
   height: 100vh;
   display: table;
-  background-color: #232428FF;
+  background-color: #232428ff;
 }
 
 .contact-title {
@@ -422,23 +419,22 @@ body {
   background-color: transparent;
   font-size: 1rem;
   padding: 10px 30px;
-  border: 3px solid #85CCFEFF;
+  border: 3px solid #85ccfeff;
   color: white;
 }
 
 .contact-hr {
-  background-color: #85CCFEFF;
-  border: 1px solid #85CCFEFF;
+  background-color: #85ccfeff;
+  border: 1px solid #85ccfeff;
 }
 
-
 .form-btn:hover {
-  background-color: #85CCFEFF;
+  background-color: #85ccfeff;
 }
 
 /***************** PROJECT DETAILS MOBILE ****************/
 .projectDetails {
-  background-color: #85CCFEFF;
+  background-color: #85ccfeff;
   height: 110vh;
   width: 100vw;
 }
@@ -475,13 +471,26 @@ body {
   background-color: white;
   font-size: 1rem;
   padding: 10px 30px;
-  border: 3px solid #3AAFA9;
+  border: 3px solid #3aafa9;
   color: #111111;
   border-radius: 4px;
 }
 
 /***************** ALL MOBILE DEVICES ****************/
 @media only screen and (max-width: 600px) {
+  .flex-direction {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
   .nav-item {
     display: none;
   }
@@ -491,13 +500,39 @@ body {
 }
 
 @media only screen and (min-height: 635px) and (max-width: 370px) {
-  .projects{
+  .flex-direction {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+  .projects {
     margin-top: 80%;
   }
 }
 
 @media only screen and (max-height: 569px) and (max-width: 321px) {
-  .projects{
+  .flex-direction {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+  .projects {
     margin-top: 110%;
   }
   .nav-item {
@@ -506,7 +541,20 @@ body {
 }
 
 @media only screen and (max-height: 668px) and (min-width: 374px) {
-  .projects{
+  .flex-direction {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+  .projects {
     margin-top: 70%;
   }
   .nav-item {
@@ -516,7 +564,7 @@ body {
 
 /***************** IPAD ****************/
 @media (max-width: 768px) and (min-height: 1024px) {
-  .tab-title{
+  .tab-title {
     font-size: 2.5rem;
   }
   .tab-description {
@@ -531,7 +579,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  .hr-sections{
+  .hr-sections {
     width: 10%;
   }
 
@@ -558,14 +606,14 @@ body {
     width: 50%;
   }
 
-  .footer-social-links a{
+  .footer-social-links a {
     width: 50px;
     height: 50px;
     line-height: 50px !important;
     margin: 0 1%;
   }
 
-  .scroll-down{
+  .scroll-down {
     font-size: 1rem;
   }
 
@@ -592,19 +640,19 @@ body {
     overflow-x: hidden;
   }
 
-  .left-side{
+  .left-side {
     left: 0;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .right-side{
+  .right-side {
     right: 0;
     height: 100%;
   }
 
-  .left-side h1  {
+  .left-side h1 {
     font-size: 1.75rem;
   }
 
@@ -613,7 +661,7 @@ body {
     margin-top: 0;
   }
 
-  .tab{
+  .tab {
     width: 40%;
     height: 40%;
   }
@@ -622,12 +670,12 @@ body {
     width: 40%;
   }
 
-  .tab-title{
+  .tab-title {
     top: 25%;
     font-size: 3rem;
   }
 
-  .tab-description{
+  .tab-description {
     top: 50%;
     font-size: 1rem;
   }
@@ -637,7 +685,8 @@ body {
     height: 100%;
   }
 
-  .tab:hover, .tab:active {
+  .tab:hover,
+  .tab:active {
     background-image: none;
     background-color: black;
     z-index: 2;
@@ -663,7 +712,7 @@ body {
 }
 
 @media (min-width: 1600px) {
-  .hr-sections{
+  .hr-sections {
     width: 8%;
   }
   /***************** MAIN SCREEN DESKTOPS ****************/
@@ -675,7 +724,7 @@ body {
     margin: 15% 0 0 0;
   }
 
-  .scroll-down{
+  .scroll-down {
     font-size: 1.25rem;
   }
   .down-icon {
@@ -684,18 +733,18 @@ body {
 
   /***************** ABOUT DESKTOPS ****************/
 
-  .left-side p  {
+  .left-side p {
     font-size: 1.25rem;
   }
 
-  .left-side h1  {
+  .left-side h1 {
     font-size: 2.25rem;
   }
 
   .resumeButton {
     font-size: 1.2rem;
     padding: 10px 40px;
-    border: 3px solid #3AAFA9;
+    border: 3px solid #3aafa9;
   }
 
   /***************** CONTACT DESKTOPS ****************/
@@ -707,10 +756,9 @@ body {
 @media (max-width: 400px) {
   /***************** NAVBAR SMALL MOBILE ****************/
   .nav {
-
     padding-right: 3px;
   }
-  .element.first{
+  .element.first {
     margin-left: 6%;
   }
 
