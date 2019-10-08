@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21929e5d-bd21-4e06-8168-d4373d26177b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Images/416151A1-E8A2-45FD-8235-11B2828D8D7A.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Images/Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Images/Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Screens/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/About.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +97,8 @@
       <workItem from="1569421526496" duration="419000" />
       <workItem from="1569435713035" duration="916000" />
       <workItem from="1569901374740" duration="498000" />
-      <workItem from="1570481200049" duration="5098000" />
+      <workItem from="1570481200049" duration="5326000" />
+      <workItem from="1570544598863" duration="622000" />
     </task>
     <servers />
   </component>
