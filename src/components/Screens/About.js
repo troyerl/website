@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfilePicture from "../Images/IMG_6919.jpeg";
+import ProfilePicture from "../Images/416151A1-E8A2-45FD-8235-11B2828D8D7A.JPG";
 import Resume from "../Images/Resume.pdf";
 import Fade from "react-reveal/Fade";
 import config from "react-reveal/globals";
